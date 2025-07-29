@@ -41,15 +41,15 @@ int main()
 
     // player one inital vars
     sf::Vector2f p1Positon = { gameXMargin, gameStartingYPos };
-    unsigned int p1r = 100;
-    unsigned int p1g = 250;
-    unsigned int p1b = 50;
+    unsigned int p1r = 255;
+    unsigned int p1g = 255;
+    unsigned int p1b = 255;
 
     // player two initial vars
     sf::Vector2f p2Position = { winx - paddleWidth - gameXMargin, gameStartingYPos };
-    unsigned int p2r = 50;
-    unsigned int p2g = 0;
-    unsigned int p2b = 100;
+    unsigned int p2r = 255;
+    unsigned int p2g = 255;
+    unsigned int p2b = 255;
 
     // ball initial vars
     sf::Vector2f ballPosition = { winx * .5f, winy * .5f };
